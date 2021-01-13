@@ -1,0 +1,18 @@
+<header class="site-header">
+
+  <div class="wrapper">
+  
+    <div class="site-title"> <p> {{ site.title | downcase }} </p> </div>
+    <nav class="site-nav">
+      {% for item in site.data.navbar %}
+        <span class="nav-item">
+        {% if page.url != item.link %} <a href="{{ item.link }}"> {% endif %}
+          {{ item.name }}
+        {% if page.url != item.link %} </a> {% endif %}
+        </span>
+      {% endfor %}
+    </nav>
+
+  </div>
+
+</header>
