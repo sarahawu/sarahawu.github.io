@@ -6,7 +6,7 @@ $(document).ready(function(){
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
-    centerPadding: '60px',
+    centerPadding: '30px',
     dots: true
   });
 
