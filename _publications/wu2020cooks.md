@@ -1,7 +1,7 @@
 ---
 title: "Too many cooks: Bayesian inference for coordinating multi-agent collaboration"
-authors: S. A. Wu\*, R. E. Wang\*, J. A. Evans, J. B. Tenenbaum, D. C. Parkes, M. Kleiman-Weiner
-date: 2020-11-01
+authors: S. A. Wu*, R. E. Wang*, J. A. Evans, J. B. Tenenbaum, D. C. Parkes, M. Kleiman-Weiner
+date: 2021-04-01
 journal: Topics in Cognitive Science
 in-press: s
 ref-1-name: PDF
