@@ -146,15 +146,28 @@ a {
   }
 }
 
+
 .site-nav {
   float: right;
   vertical-align: bottom;
   display: inline-block;
   line-height: $large-font-size;
   font-weight: $emph-font-weight;
+  color: $text-color;
+
+  a {
+    &:hover {
+      color: $text-color;
+      background-color: transparent;
+    }
+  }
 
   .nav-item {
-    padding-left: $nav-spacing;
+    margin-left: $nav-spacing;
+  }
+  
+  .socials {
+    margin-left: $nav-spacing / 2;
   }
 }
 

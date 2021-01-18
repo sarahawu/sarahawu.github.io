@@ -10,5 +10,8 @@ I am a first-year PhD student in Psychology at Stanford University, advised by [
 {:.content-narrow .content-block}
 My research interests are in computational modeling of social cognition, including aspects of social learning, inference, and judgement. Outside of science, I like boba, running, music, and design.
 
+{:.content-narrow .content-block}
+You can email me at sarahawu [at] stanford.edu.
+
 {:.profile .content-mid}
 ![naples](/imgs/naples.png)

@@ -2,15 +2,26 @@
 
   <div class="wrapper">
   
-    <div class="site-title"> <p> {{ site.title | downcase }} </p> </div>
+    <div class="site-title">
+        <p>{{ site.title | downcase }}</p>
+    </div>
+    
     <nav class="site-nav">
       {% for item in site.data.navbar %}
         <span class="nav-item">
-        {% if page.url != item.link %} <a href="{{ item.link }}"> {% endif %}
+        {%- if page.url != item.link -%} <a href="{{ item.link }}"> {%- endif -%}
           {{ item.name }}
-        {% if page.url != item.link %} </a> {% endif %}
+        {%- if page.url != item.link -%} </a> {%- endif -%}
         </span>
       {% endfor %}
+
+      <span class="nav-item">
+        <!-- <a href="mailto: sarahawu@stanford.edu" class="socials far fa-envelope"></a> -->
+        <a href="https://github.com/{{ site.socials.github }}" class="socials fab fa-github" target="_blank"></a>
+        <!-- <a class="fab fa-instagram"></a> -->
+        <a href="https://last.fm/user/{{ site.socials.last-fm }}" class="socials fab fa-lastfm" target="_blank"></a>
+      </span>
+      
     </nav>
 
   </div>
