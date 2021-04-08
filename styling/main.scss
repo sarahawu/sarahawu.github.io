@@ -126,7 +126,7 @@ a {
  * site header
  */
 .site-header {
-  width: $content-width-narrow;
+  max-width: $content-width-narrow;
   margin-right: auto;
   margin-left: auto;
   margin-top: $unit-spacing * 2;
