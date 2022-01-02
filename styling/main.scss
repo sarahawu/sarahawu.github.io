@@ -5,19 +5,19 @@
  * defaults
  */
 $base-font-family:  "Lato", sans-serif !default;
-$base-font-size:    14px !default;
-$base-font-weight:  300 !default;
+$base-font-size:    13px !default;
+$base-font-weight:  400 !default;
 $large-font-size:   24px !default;
-$emph-font-weight:  500 !default;
+$emph-font-weight:  600 !default;
 $title-font-weight: 800 !default;
 
 $unit-spacing:      30px !default;
 $nav-spacing:       10px !default;
 
-$text-color:        #111 !default;
+$text-color:        #333333 !default;
 $background-color:  #fdfdfd !default;
-$brand-color-dark:  #c49562 !default;
-$brand-color-light: #faeee3 !default;
+$brand-color-dark:  #83a5eb !default;
+$brand-color-light: #ffedf8 !default;
 $grey-color:        #c2c2c2 !default;
 
 $content-width:     800px !default;
@@ -130,7 +130,7 @@ a {
   margin-right: auto;
   margin-left: auto;
   margin-top: $unit-spacing * 2;
-  margin-bottom: $unit-spacing;
+  margin-bottom: $unit-spacing * 1.5;
 }
 
 .site-title {
@@ -199,9 +199,11 @@ a {
 }
 
 .profile {
+  margin-top: $unit-spacing * 2;
+  text-align: center;
   img {
-    -webkit-mask-image:-webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1) 60%);
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 60%);
+    -webkit-mask-image:-webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1) 50%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 50%);
   }
 }
 

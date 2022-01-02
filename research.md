@@ -10,11 +10,30 @@ permalink: /research/
 
   <div class="content-block">
 
-    {{ pub.authors }} ({{ pub.date | date: "%Y" }}
-    {%- if pub.in-press -%}, in press {%- endif %}). 
+    {{ pub.authors }}
+    {% if pub.in-prep %}
+    (in prep).
+    {% else %}
+    ({{ pub.date | date: "%Y" }}
+    {%- if pub.in-press -%}, in press {%- endif -%}).
+    {% endif %}
+
     {% if pub.doi %} <a href="{{ pub.doi }}" target="_blank"> {% endif %} {{ pub.title }}{%- if pub.doi -%} </a> {%- endif -%}.
+
+    {% if pub.editor %}
+    In {{ pub.editor }} (Ed.),
+    {% endif %}
+
+    {%- if pub.journal -%}
     <i> {{ pub.journal }}</i>
-    {%- if pub.volume -%}, {{ pub.volume }} {%- endif -%}. 
+    {%- if pub.volume -%}, {{ pub.volume }}
+    {%- if pub.issue -%}({{ pub.issue }}){%- endif -%}
+    {%- endif -%}.
+    {%- endif -%}
+
+    {% if pub.publisher %}
+    {{ pub.publisher }}.
+    {% endif %}
 
     {% if pub.ref-1-name %} [<a href="{{ pub.ref-1-link }}" target="_blank">{{ pub.ref-1-name }}</a>
 
