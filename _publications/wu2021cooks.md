@@ -18,4 +18,4 @@ ref-4-link: ../papers/wu2021cooks_poster.pdf
 
 CogSci 2020 Computational Modeling Prize in Higher Cognition
 
-CoopAI 2020 Workshop Best Paper Award
+NeurIPS 2020 CoopAI Workshop Best Paper Award

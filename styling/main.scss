@@ -199,11 +199,11 @@ a {
 }
 
 .profile {
-  margin-top: $unit-spacing * 2;
+  //margin-top: $unit-spacing;
   text-align: center;
   img {
-    -webkit-mask-image:-webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1) 50%);
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 50%);
+    -webkit-mask-image:-webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1) 25%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 25%);
   }
 }
 

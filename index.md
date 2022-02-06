@@ -11,7 +11,7 @@ At MIT, I worked with [Josh Tenenbaum](http://cocosci.mit.edu/josh){:target="_bl
 
 {:.content-narrow .content-block}
 My research focuses on computational modeling of social cognition.
-I study how people make social inferences and judgments about each other, and try to formalize these processes using tools such as Bayesian inference and reinforcement learning.
+I study how people use counterfactual reasoning to make social inferences and judgments about each other, and try to formalize these processes using tools such as Bayesian inference and reinforcement learning.
 Outside of research, I like boba, running, music, and design.
 I also mentor local high school students through the [Stanford FAST](https://fast.stanford.edu/){:target="_blank"} program and discuss tech ethics with [Stanford C&S](https://stanford-cscs.github.io/){:target="_blank"}.
 
