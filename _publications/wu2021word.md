@@ -8,6 +8,8 @@ volume: 45
 issue: 1
 ref-1-name: PDF
 ref-1-link: ../papers/wu2021word.pdf
-ref-2-name: AMLaP talk
-ref-2-link: https://mediaup.uni-potsdam.de/Play/Chapter/222
+ref-2-name:
+ref-2-link: 
 ---
+
+Presented at AMLaP 2020 [<a href="https://mediaup.uni-potsdam.de/Play/Chapter/222" target="_blank">talk</a>]

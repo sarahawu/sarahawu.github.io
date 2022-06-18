@@ -21,4 +21,8 @@ design and layout for [MIT Technique](https://technique.mit.edu/){:target="_blan
 
 <a href="/imgs/tnq.png" class="lightbox_trigger"> <img src="/imgs/tnq.png"> </a>
 
-feel free to fork this website's [source code](https://github.com/sarahawu/sarahawu.github.io), just add a link back :-) [&#10025;](https://roshni714.github.io/) [&#10025;](https://lailacj.github.io/)
+feel free to fork this website's [source code](https://github.com/sarahawu/sarahawu.github.io), just add a link back :-)
+[&#10025;](https://roshni714.github.io/)
+[&#10025;](https://lailacj.github.io/)
+[&#10025;](https://nicolehope5.github.io/)
+

@@ -10,12 +10,14 @@ ref-1-name: PDF
 ref-1-link: ../papers/wu2021cooks.pdf
 ref-2-name: code
 ref-2-link: https://github.com/rosewang2008/gym-cooking
-ref-3-name: CogSci talk
+ref-3-name:
 ref-3-link:
-ref-4-name: poster
-ref-4-link: ../papers/wu2021cooks_poster.pdf
+ref-4-name:
+ref-4-link:
 ---
 
-CogSci 2020 Computational Modeling Prize in Higher Cognition
+Presented at AAMAS 2020, invited paper at the OptLearnMAS Workshop
 
-NeurIPS 2020 CoopAI Workshop Best Paper Award
+Also presented at CogSci 2020 [<a href="https://www.youtube.com/watch?v=gTbMkfOvMY4" target="_blank">talk</a>] -- __Computational Modeling Prize in High Cognition__
+
+Also presented at the NeurIPS 2020 CoopAI Workshop [<a href="../papers/wu2021cooks_poster.pdf" target="_blank">poster</a>] -- __Best Paper Award__
