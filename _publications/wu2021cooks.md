@@ -20,4 +20,4 @@ Presented at AAMAS 2020, invited paper at the OptLearnMAS Workshop
 
 Also presented at CogSci 2020 [<a href="https://www.youtube.com/watch?v=gTbMkfOvMY4" target="_blank">talk</a>] -- __Computational Modeling Prize in High Cognition__
 
-Also presented at the NeurIPS 2020 CoopAI Workshop [<a href="../papers/wu2021cooks_poster.pdf" target="_blank">poster</a>] -- __Best Paper Award__
+Also presented at the CoopAI Workshop, NeurIPS 2020 [<a href="../papers/wu2021cooks_poster.pdf" target="_blank">poster</a>] -- __Best Paper Award__
