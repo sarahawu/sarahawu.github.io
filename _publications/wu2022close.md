@@ -8,10 +8,14 @@ ref-1-name: PDF
 ref-1-link: ../papers/wu2022close.pdf
 ref-2-name: code
 ref-2-link: https://github.com/cicl-stanford/counterfactual_decisions
-ref-3-name: poster
-ref-3-link: ../papers/wu2022close_poster.pdf
+ref-3-name:
+ref-3-link:
 ref-4-name: 
 ref-4-link: 
 ---
+
+Presented at CogSci 2022 [<a href="../papers/wu2022close_poster.pdf" target="_blank">poster</a>]
+
+Also presented at (E)SPP 2022
 
 Also presented at the Social Intelligence in Humans and Robots Workshop, RSS 2022
