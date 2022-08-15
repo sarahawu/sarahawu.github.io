@@ -178,6 +178,8 @@ a {
  */
 .content-block {
   margin-bottom: $base-font-size * 1.5;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .content-note {
   margin-top: 0;

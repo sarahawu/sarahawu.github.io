@@ -7,7 +7,7 @@ journal: Human-like Machine Intelligence
 editor: S. Muggleton and N. Charter
 publisher: Oxford University Press
 ref-1-name: PDF
-ref-1-link: ../papers/wang2021cooks.pdf
+ref-1-link: /assets/files/wang2021cooks.pdf
 ref-2-name: 
 ref-2-link: 
 ref-3-name:

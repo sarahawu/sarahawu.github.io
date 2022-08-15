@@ -13,6 +13,6 @@ ref-4-name:
 ref-4-link: 
 ---
 
-Presented at CogSci 2021 [<a href="../papers/wu2021responsibility_poster.pdf" target="_blank">poster</a>, <a href="https://www.youtube.com/watch?v=_jhCXqqtmdAtalk" target="_blank">talk</a>]
+Presented at CogSci 2021 [<a href="/assets/files/wu2021responsibility_poster.pdf" target="_blank">poster</a>, <a href="https://www.youtube.com/watch?v=_jhCXqqtmdAtalk" target="_blank">talk</a>]
 
 Also presented at SPP 2021

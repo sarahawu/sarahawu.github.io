@@ -19,4 +19,5 @@ I also mentor local high school students through the [Stanford FAST](https://fas
 You can email me at sarahawu [at] stanford.edu. 
 
 {:.profile .content-mid}
-![profile](/imgs/acadia.png)
+![profile](/assets/images/acadia.png)
+Acadia National Park
