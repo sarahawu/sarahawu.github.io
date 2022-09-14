@@ -8,11 +8,13 @@ select chalk art for [MIT Chalk of the Day](https://www.instagram.com/chalkofthe
 
 <div class="chalk content-mid">
 
-  <div> <a href="/assets/images/chalk_video.gif" class="lightbox_trigger"> <img src="/assets/iimages/chalk_video.gif"> </a> </div>
+  <div> <a href="/assets/images/chalk_video.gif" class="lightbox_trigger"> <img src="/assets/images/chalk_video.gif"> </a> </div>
 
-  {%- for i in (1..11) -%}
+  {%- for i in (1..10) -%}
   <div> <a href="/assets/images/chalk{{ i }}.jpg" class="lightbox_trigger"> <img src="/assets/images/chalk{{ i }}.jpg"> </a> </div>
   {%- endfor -%}
+  
+  <div> <a href="/assets/images/chalk_film.jpg" class="lightbox_trigger"> <img src="/assets/images/chalk_film.jpg"> </a> </div>
 
 </div>
 
