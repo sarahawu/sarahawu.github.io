@@ -4,6 +4,12 @@ title: Miscellaneous
 permalink: /miscellaneous/
 ---
 
+documenting the [music I listen to](https://www.last.fm/user/sarahwu_),
+[books I read](https://www.goodreads.com/sarahawu),
+and [concerts/shows I've attended](https://www.concertarchives.org/swu)
+
+## art projects---
+
 select chalk art for [MIT Chalk of the Day](https://www.instagram.com/chalkoftheday/){:target="_blank"}, 2016-2020
 
 <div class="chalk content-mid">

@@ -12,9 +12,9 @@ url: "https://sarahawu.github.io/" # the base hostname & protocol for your site,
 socials:
     twitter:
     github: sarahawu
-    instagram: swubear
+    # instagram: swubear
     last-fm: sarahwu_
-    goodreads: sarahawu
+    # goodreads: sarahawu
 
 collections:
     publications:
