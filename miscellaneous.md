@@ -4,9 +4,8 @@ title: Miscellaneous
 permalink: /miscellaneous/
 ---
 
-documenting the [music I listen to](https://www.last.fm/user/sarahwu_),
-[books I read](https://www.goodreads.com/sarahawu),
-and [concerts/shows I've attended](https://www.concertarchives.org/swu)
+documenting the [music I listen to](https://www.last.fm/user/sarahwu_) and
+[books I read](https://www.goodreads.com/sarahawu)
 
 ## art projects---
 
