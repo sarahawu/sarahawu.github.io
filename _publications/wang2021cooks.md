@@ -1,6 +1,6 @@
 ---
 title: "Too many cooks: Bayesian inference for coordinating multi-agent collaboration"
-authors: Rose E. Wang*, Sarah A. Wu*, James A. Evans, Joshua B. Tenenbaum, David C. Parkes, and Max Kleiman-Weiner
+authors: Rose E. Wang*, <b>Sarah A. Wu*</b>, James A. Evans, Joshua B. Tenenbaum, David C. Parkes, and Max Kleiman-Weiner
 date: 2021-07-15
 doi: https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198862536.001.0001/oso-9780198862536-chapter-8
 journal: Human-like Machine Intelligence

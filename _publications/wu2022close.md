@@ -1,6 +1,6 @@
 ---
 title: "That was close! A counterfactual simulation model of causal judgments about decisions"
-authors: Sarah A. Wu, Shruti Sridhar, and Tobias Gerstenberg
+authors: <b>Sarah A. Wu</b>, Shruti Sridhar, and Tobias Gerstenberg
 date: 2022-5-12
 doi: https://psyarxiv.com/7uwhf
 journal: Proceedings of the 44th Annual Conference of the Cognitive Science Society

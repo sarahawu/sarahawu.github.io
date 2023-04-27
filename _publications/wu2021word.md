@@ -1,6 +1,6 @@
 ---
 title: Word order predicts cross-linguistic differences in the production of redundant color and number modifiers
-authors: Sarah A. Wu and Edward Gibson
+authors: <b>Sarah A. Wu</b> and Edward Gibson
 date: 2021-01-15
 doi: https://doi.org/10.1111/cogs.12934
 journal: Cognitive Science

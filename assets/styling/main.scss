@@ -15,9 +15,9 @@ $unit-spacing:      30px !default;
 $nav-spacing:       10px !default;
 
 $text-color:        #333333 !default;
-$background-color:  #fdfdfd !default;
-$brand-color-dark:  #83a5eb !default;
-$brand-color-light: #ffedf8 !default;
+$background-color:  #ffffff !default;
+$brand-color-dark:  #d17b5c !default;
+$brand-color-light: #e8f7ff !default;
 $grey-color:        #c2c2c2 !default;
 
 $content-width:     800px !default;
@@ -204,8 +204,8 @@ a {
   //margin-top: $unit-spacing;
   text-align: center;
   img {
-    -webkit-mask-image:-webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1) 25%);
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 25%);
+    -webkit-mask-image:-webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1) 50%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 50%);
   }
 }
 

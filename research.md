@@ -14,8 +14,12 @@ permalink: /research/
     {% if pub.in-prep %}
     (in prep).
     {% else %}
+    {% if pub.submitted %}
+    (submitted).
+    {% else %}
     ({{ pub.date | date: "%Y" }}
     {%- if pub.in-press -%}, in press {%- endif -%}).
+    {% endif %}
     {% endif %}
 
     {% if pub.doi %} <a href="{{ pub.doi }}" target="_blank"> {% endif %} {{ pub.title }}{%- if pub.doi -%} </a> {%- endif -%}.
