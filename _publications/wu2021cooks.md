@@ -7,7 +7,7 @@ journal: Topics in Cognitive Science
 volume: 13
 issue: 2
 ref-1-name: PDF
-ref-1-link: /assets/files/wu2021cooks.pdf
+ref-1-link: /assets/papers/wu2021cooks.pdf
 ref-2-name: code
 ref-2-link: https://github.com/rosewang2008/gym-cooking
 ref-3-name:
@@ -20,4 +20,4 @@ Presented at AAMAS 2020, invited paper at the OptLearnMAS Workshop
 
 Also presented at CogSci 2020 [<a href="https://www.youtube.com/watch?v=gTbMkfOvMY4" target="_blank">talk</a>] -- __Computational Modeling Prize in High Cognition__
 
-Also presented at the CoopAI Workshop, NeurIPS 2020 [<a href="/assets/files/wu2021cooks_poster.pdf" target="_blank">poster</a>] -- __Best Paper Award__
+Also presented at the CoopAI Workshop, NeurIPS 2020 [<a href="/assets/posters/wu2021cooks.pdf" target="_blank">poster</a>] -- __Best Paper Award__

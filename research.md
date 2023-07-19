@@ -13,13 +13,13 @@ permalink: /research/
     {{ pub.authors }}
     {% if pub.in-prep %}
     (in prep).
-    {% else %}
-    {% if pub.submitted %}
+    {% elsif pub.submitted %}
     (submitted).
+    {% elsif pub.under-review %}
+    (under review).
     {% else %}
     ({{ pub.date | date: "%Y" }}
     {%- if pub.in-press -%}, in press {%- endif -%}).
-    {% endif %}
     {% endif %}
 
     {% if pub.doi %} <a href="{{ pub.doi }}" target="_blank"> {% endif %} {{ pub.title }}{%- if pub.doi -%} </a> {%- endif -%}.

@@ -5,9 +5,13 @@ permalink: /
 ---
 
 {:.content-narrow .content-block}
-I am a third-year PhD student in Psychology at Stanford University, advised by [Tobi Gerstenberg](http://cicl.stanford.edu/member/tobias_gerstenberg/){:target="_blank"} in the [Causality in Cognition Lab](http://cicl.stanford.edu/){:target="_blank"} and supported by an NSF Graduate Research Fellowship.
+I am a third-year PhD student in Psychology at Stanford University,
+advised by [Tobi Gerstenberg](http://cicl.stanford.edu/member/tobias_gerstenberg/){:target="_blank"}
+and supported by a [Stanford Interdisciplinary Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/sigf){:target="_blank"}
+and the [NSF GRFP](https://www.nsfgrfp.org/){:target="_blank"}.
 I received double BS degrees from MIT studying math, computer science, and cognitive science.
-At MIT, I worked with [Josh Tenenbaum](http://cocosci.mit.edu/josh){:target="_blank"} and [Max Kleiman-Weiner](http://www.mit.edu/~maxkw/){:target="_blank"} in the CoCoSci group and with [Ted Gibson](http://tedlab.mit.edu/ted.html){:target="_blank"} in the TedLab.
+At MIT, I worked with [Josh Tenenbaum](http://cocosci.mit.edu/josh){:target="_blank"} in the CoCoSci group and with [Ted Gibson](http://tedlab.mit.edu/ted.html){:target="_blank"} in the TedLab.
+I am currently a research intern at AI2 on the [Mosaic](https://mosaic.allenai.org/) team working with [Sydney Levine](https://sites.google.com/site/sydneymlevine/) and [Xiang Ren](https://shanzhenren.github.io/).
 
 {:.content-narrow .content-block}
 My research focuses on causal and counterfactual reasoning in social contexts.

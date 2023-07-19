@@ -7,7 +7,7 @@ journal: Cognitive Science
 volume: 45
 issue: 1
 ref-1-name: PDF
-ref-1-link: /assets/files/wu2021word.pdf
+ref-1-link: /assets/papers/wu2021word.pdf
 ref-2-name:
 ref-2-link: 
 ---
