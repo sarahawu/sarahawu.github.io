@@ -14,3 +14,4 @@ ref-4-name:
 ref-4-link: 
 ---
 
+Presented at CogSci 2023 [<a href="/assets/posters/wu2023computational.pdf" target="_blank">poster</a>]

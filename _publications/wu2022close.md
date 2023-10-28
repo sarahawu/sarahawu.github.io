@@ -16,6 +16,6 @@ ref-4-link:
 
 Presented at CogSci 2022 [<a href="/assets/posters/wu2022close.pdf" target="_blank">poster</a>]
 
-Also presented at (E)SPP 2022
+Also presented at (E)SPP 2022 [talk]
 
-Also presented at the Social Intelligence in Humans and Robots Workshop, RSS 2022
+Also presented at RSS 2022, Social Intelligence in Humans and Robots Workshop

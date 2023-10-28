@@ -6,6 +6,7 @@ doi: https://doi.org/10.1111/cogs.12934
 journal: Cognitive Science
 volume: 45
 issue: 1
+pages: e12934
 ref-1-name: PDF
 ref-1-link: /assets/papers/wu2021word.pdf
 ref-2-name:

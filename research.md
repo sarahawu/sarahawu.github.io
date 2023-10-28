@@ -32,6 +32,8 @@ permalink: /research/
     <i> {{ pub.journal }}</i>
     {%- if pub.volume -%}, {{ pub.volume }}
     {%- if pub.issue -%}({{ pub.issue }}){%- endif -%}
+    {%- endif -%}
+    {%- if pub.pages -%}, {{ pub.pages }}
     {%- endif -%}.
     {%- endif -%}
 
