@@ -13,6 +13,8 @@ $title-font-weight: 800 !default;
 
 $unit-spacing:      30px !default;
 $nav-spacing:       10px !default;
+$header-height:     $base-font-size * 7 !default;
+$footer-height:     $base-font-size * 6 !default;
 
 $text-color:        #333333 !default;
 $background-color:  #ffffff !default;
@@ -50,6 +52,8 @@ $on-laptop:         800px !default;
  */
 // force scroll bar so pages don't shift
 html {
+  height: 100%;
+  margin: 0;
   overflow-y: scroll;
 }
 
@@ -63,6 +67,8 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+  height: 100%;
+  margin: 0;
 }
 
 p {
@@ -70,6 +76,11 @@ p {
   margin-bottom: $base-font-size / 2;
 }
 
+.page-content {
+  min-height: -webkit-calc(100% - #{$header-height});
+  min-height:         calc(100% - #{$header-height});
+  margin: 0 auto -#{$footer-height};
+}
 
 
 /**
@@ -106,6 +117,8 @@ a {
   margin-left: auto;
   padding-right: $unit-spacing;
   padding-left: $unit-spacing;
+  padding-top: $base-font-size;
+  padding-bottom: $base-font-size;
   @extend %clearfix;
 }
 
@@ -126,11 +139,14 @@ a {
  * site header
  */
 .site-header {
+  height: $header-height;
   max-width: $content-width-narrow;
   margin-right: auto;
   margin-left: auto;
-  margin-top: $unit-spacing * 2;
-  margin-bottom: $unit-spacing * 1.5;
+  .wrapper {
+    padding-top: $base-font-size * 4;
+    padding-bottom: $base-font-size;
+  }
 }
 
 .site-title {
@@ -147,6 +163,25 @@ a {
 }
 
 
+/**
+ * site footer
+ */
+.push {
+    height: $footer-height;
+}
+
+footer {
+    text-align: center;
+    height: $footer-height;
+    .container {
+        padding-top: $base-font-size * 3;
+    }
+}
+
+
+/**
+ * site nav
+ */
 .site-nav {
   float: right;
   vertical-align: bottom;
