@@ -1,8 +1,11 @@
-- name: about
+- name: Home
   link: /
-- name: research
-  link: /research/
-- name: miscellaneous
-  link: /miscellaneous/
-- name: cv
-  link: /assets/cv.pdf
+  
+- name: Data
+  link: /data/
+  
+- name: People
+  link: /people/
+  
+- name: Contact
+  link: /contact/
