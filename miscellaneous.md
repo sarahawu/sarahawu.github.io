@@ -4,11 +4,6 @@ title: Miscellaneous
 permalink: /miscellaneous/
 ---
 
-documenting the [music I listen to](https://www.last.fm/user/sarahwu_) and
-[books I read](https://www.goodreads.com/sarahawu)
-
-## art projects---
-
 third-place winner of the 2023 [CogSci Mind Challenge](https://cognitivesciencesociety.org/cogsci-mind-challenge/)
 
 <div style="text-align: center;">
