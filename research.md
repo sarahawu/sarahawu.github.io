@@ -4,72 +4,23 @@ title: Research
 permalink: /research/
 ---
 
-{% assign sorted = site.publications | sort: "date" | reverse %}
+## Preprints
 
-{%- for pub in sorted -%}
+{% assign items = site.publications | where_exp: "pub", "pub.status != 'published'" | sort: "date" | reverse %}
+{%- for pub in items -%}
+    {% include publication.html pub=pub %}
+{% endfor %}
 
-  <div class="content-block">
+## Publications 
 
-    {{ pub.authors }}
-    {% if pub.in-prep %}
-    (in prep).
-    {% elsif pub.submitted %}
-    (submitted).
-    {% elsif pub.under-review %}
-    (under review).
-    {% else %}
-    ({{ pub.date | date: "%Y" }}
-    {%- if pub.in-press -%}, in press {%- endif -%}).
-    {% endif %}
+{% assign items = site.publications | where: "status", "published" | where: "archival", true | sort: "date" | reverse %}
+{%- for pub in items -%}
+    {% include publication.html pub=pub %}
+{% endfor %}
 
-    {% if pub.doi %} <a href="{{ pub.doi }}" target="_blank"> {% endif %} {{ pub.title }}{%- if pub.doi -%} </a> {%- endif -%}.
+## Other Publications
 
-    {% if pub.editor %}
-    In {{ pub.editor }} (Ed.),
-    {% endif %}
-
-    {%- if pub.journal -%}
-    <i> {{ pub.journal }}</i>
-    {%- if pub.volume -%}, {{ pub.volume }}
-    {%- if pub.issue -%}({{ pub.issue }}){%- endif -%}
-    {%- endif -%}
-    {%- if pub.pages -%}, {{ pub.pages }}
-    {%- endif -%}.
-    {%- endif -%}
-
-    {% if pub.publisher %}
-    {{ pub.publisher }}.
-    {% endif %}
-
-    {% if pub.ref-1-name %} [<a href="{{ pub.ref-1-link }}" target="_blank">{{ pub.ref-1-name }}</a>
-
-      {%- if pub.ref-2-name -%}, <a href="{{ pub.ref-2-link }}" target="_blank">{{ pub.ref-2-name }}</a>
-
-        {%- if pub.ref-3-name -%}, <a href="{{ pub.ref-3-link }}" target="_blank">{{ pub.ref-3-name }}</a>
-
-          {%- if pub.ref-4-name -%}, <a href="{{ pub.ref-4-link }}" target="_blank">{{ pub.ref-4-name }}</a>]
-
-          {%- else -%}
-          ]
-
-          {%- endif -%}
-
-        {%- else -%}
-        ]
-
-        {%- endif -%}
-        
-      {%- else -%}
-      ]
-
-      {%- endif -%}
-
-    {% endif %}
-
-    <div class="content-note">
-      {{ pub.content }}
-    </div>
-
-  </div>
-
+{% assign items = site.publications | where: "status", "published" | where: "archival", false | sort: "date" | reverse %}
+{%- for pub in items -%}
+    {% include publication.html pub=pub %}
 {% endfor %}

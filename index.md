@@ -5,7 +5,7 @@ permalink: /
 ---
 
 {:.content-narrow .content-block}
-I am a final-year Ph.D. student in Psychology at Stanford University
+I am a Ph.D. student in Psychology at Stanford University
 advised by [Tobi Gerstenberg](http://cicl.stanford.edu/member/tobias_gerstenberg/){:target="_blank"}.
 My research focuses on causal and counterfactual reasoning in social contexts.
 I integrate behavioral experiments and computational modeling

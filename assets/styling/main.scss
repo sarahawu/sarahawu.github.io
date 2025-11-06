@@ -267,3 +267,21 @@ footer {
     max-width: 80%;
   }
 }
+
+/* Publication links spacing and alignment */
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $nav-spacing;
+  margin-top: $nav-spacing / 2;
+  margin-left: $nav-spacing;
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  i {
+    margin-right: $nav-spacing / 2; /* small space between icon and text */
+  }
+}

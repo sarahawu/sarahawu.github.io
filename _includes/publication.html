@@ -1,0 +1,79 @@
+{% assign pub = pub | default: include.pub %}
+
+<div class="content-block">
+
+    {{ pub.authors }}
+    
+    {% if pub.status == "published" or pub.status == "preprint" or pub.status == "in press" %}
+      ({{ pub.date | date: "%Y" }}
+      {%- if pub.status == "in press" -%}, in press {%- endif -%}).
+    {% else %}
+      ({{ pub.status }}).
+    {% endif %}
+
+    {{ pub.title }}.
+
+    {% if pub.editor %}
+      In {{ pub.editor }} (Ed.),
+    {% endif %}
+
+    {%- if pub.journal -%}
+      <i> {{ pub.journal }}</i>
+      {%- if pub.volume -%}, {{ pub.volume }}
+      {%- if pub.issue -%}({{ pub.issue }}){%- endif -%}
+      {%- endif -%}
+      {%- if pub.pages -%}, {{ pub.pages }}
+      {%- endif -%}.
+    {%- endif -%}
+
+    {% if pub.publisher %}
+      {{ pub.publisher }}.
+    {% endif %}
+
+    {%- if pub.doi or pub.pdf or pub.website or pub.code or pub.poster or pub.talk -%}
+    <div class="pub-links">
+      {%- if pub.doi -%}
+        <a class="pub-link" href="{{ pub.doi }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-link" aria-hidden="true"></i>
+          <span>doi</span>
+        </a>
+      {%- endif -%}
+    
+      {%- if pub.pdf -%}
+        <a class="pub-link" href="{{ pub.pdf }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
+          <span>pdf</span>
+        </a>
+      {%- endif -%}
+
+      {%- if pub.website -%}
+        <a class="pub-link" href="{{ pub.website }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-globe" aria-hidden="true"></i>
+          <span>website</span>
+        </a>
+      {%- endif -%}
+    
+      {%- if pub.code -%}
+        <a class="pub-link" href="{{ pub.code }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-code" aria-hidden="true"></i>
+          <span>code</span>
+        </a>
+      {%- endif -%}
+    
+      {%- if pub.poster -%}
+        <a class="pub-link" href="{{ pub.poster }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-image" aria-hidden="true"></i>
+          <span>poster</span>
+        </a>
+      {%- endif -%}
+    
+      {%- if pub.talk -%}
+        <a class="pub-link" href="{{ pub.talk }}" target="_blank" rel="noopener">
+          <i class="fa-solid fa-circle-play" aria-hidden="true"></i>
+          <span>talk</span>
+        </a>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+
+</div>
