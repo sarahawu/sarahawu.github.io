@@ -7,4 +7,5 @@ archival: true
 journal: International Conference on Machine Learning (ICML)
 pdf: https://arxiv.org/abs/2505.22861
 website: https://stanford-iprl-lab.github.io/causal-pik/
+talk: https://icml.cc/virtual/2025/poster/45328
 ---

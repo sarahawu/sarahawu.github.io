@@ -5,6 +5,7 @@ date: 2025-07-31
 status: published
 archival: false
 journal: Proceedings of the 47th Annual Conference of the Cognitive Science Society
+doi: https://escholarship.org/uc/item/1rb2679w
 pdf: https://osf.io/preprints/osf/vqgz5_v1
 code: https://github.com/cicl-stanford/whodunnit_multimodal_inference
 poster: /assets/posters/teo2025leave.pdf
