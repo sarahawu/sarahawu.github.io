@@ -15,6 +15,6 @@ talk: https://www.youtube.com/watch?v=gTbMkfOvMY4
 poster: /assets/posters/wu2021cooks.pdf
 ---
 
-CogSci 2020 -- Computational Modeling Prize in High Cognition
+&#x2605; CogSci 2020 -- Computational Modeling Prize in High Cognition
 
-NeurIPS 2020 CoopAI Workshop -- Best Paper Award
+&#x2605; NeurIPS 2020 CoopAI Workshop -- Best Paper Award
