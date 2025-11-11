@@ -14,7 +14,7 @@ $title-font-weight: 800 !default;
 $unit-spacing:      30px !default;
 $nav-spacing:       10px !default;
 $header-height:     $base-font-size * 7 !default;
-$footer-height:     $base-font-size * 6 !default;
+$footer-height:     $base-font-size * 5 !default;
 
 $text-color:        #333333 !default;
 $background-color:  #ffffff !default;
@@ -170,11 +170,12 @@ a {
     height: $footer-height;
 }
 
-footer {
+.site-footer {
     text-align: center;
     height: $footer-height;
-    .container {
-        padding-top: $base-font-size * 3;
+    .wrapper {
+      padding-top: $base-font-size;
+      padding-bottom: $base-font-size;
     }
 }
 
