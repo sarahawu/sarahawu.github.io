@@ -11,7 +11,7 @@ permalink: /research/
     {% include publication.html pub=pub %}
 {% endfor %}
 
-## Publications 
+## Archival Publications 
 
 {% assign items = site.publications | where: "status", "published" | where: "archival", true | sort: "date" | reverse %}
 {%- for pub in items -%}
